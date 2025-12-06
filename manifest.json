@@ -2,7 +2,7 @@
   "name": "Mar y Rios Pacifico",
   "short_name": "Mar Pacifico",
   "description": "Descubre los tesoros del Pacífico Colombiano - Mapa turístico interactivo",
-  "start_url": "/",
+  "start_url": "/Mar-Rios/",
   "display": "standalone",
   "background_color": "#E3F2FD",
   "theme_color": "#4A90E2",
