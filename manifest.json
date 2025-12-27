@@ -1,0 +1,40 @@
+{
+  "name": "Mar y Rios Pacifico",
+  "short_name": "Mar Pacifico",
+  "description": "Descubre los tesoros del Pacífico Colombiano - Mapa turístico interactivo",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#E3F2FD",
+  "theme_color": "#4A90E2",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "logo_turismo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["travel", "tourism", "maps"],
+  "lang": "es",
+  "dir": "ltr"
+}
