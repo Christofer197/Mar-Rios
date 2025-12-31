@@ -300,10 +300,11 @@ function aplicarFiltros() {
 
     // Filtrar sitios
     filteredSites = allSites.filter(site => {
-        // Filtro de acceso
+        // Filtro de acceso (comparar en minúsculas)
+        const accesoSite = (site.acceso || '').toLowerCase();
         const accesoMatch = 
-            (filters.acceso.maritimo && site.acceso === 'Maritimo') ||
-            (filters.acceso.terrestre && site.acceso === 'Terrestre');
+            (filters.acceso.maritimo && accesoSite === 'maritimo') ||
+            (filters.acceso.terrestre && accesoSite === 'terrestre');
         
         if (!accesoMatch) return false;
 
