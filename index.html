@@ -186,8 +186,8 @@
 
                     <!-- Credenciales -->
                     <div class="credits">
-                        <p>© 2014 <strong>Edinson Christofer Angulo</strong></p>
-                        <p><strong>Eliecer Candelo Viafara</strong></p>
+                        <p>© 2025 <strong>Edinson Christofer Angulo</strong></p>
+                        <p><strong>Victor Ivan Castro</strong></p>
                     </div>
                 </aside>
 
@@ -257,11 +257,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
     <!-- PWA Service Worker Registration -->
+    <!--
     <script>
         // Registrar Service Worker
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
+                navigator.serviceWorker.register('./service-worker.js')
                     .then(registration => {
                         console.log('✅ Service Worker registrado:', registration.scope);
                         
@@ -328,8 +329,9 @@
             console.log('✅ La app ya está instalada');
         }
     </script>
+    -->
 
     <!-- Script personalizado -->
-    <script src="script.js"></script>
+    <script src="script.js?v=4"></script>
 </body>
 </html>
